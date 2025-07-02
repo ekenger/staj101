@@ -80,15 +80,3 @@ Bugünkü staj sürecinde, Enkur Enerji’nin kullanıcı deneyimini artırmaya 
 ## ✏️ **Notlar**
 
 UX test raporu sorumluya teslim edilerek gerekli aksiyonların planlanması sağlandı. Flutter tarafında ilerleyen günlerde bu widget’lar gerçek sayaç verisiyle entegre edilerek canlı projeye dahil edilecek.
-
----
-
-## 📂 Dosya Yapısı Önerisi
-
-```plaintext
-staj/
- ├─ gun-2/
- │   ├─ README.md
- │   ├─ ux_test_raporu.xlsx
- │   ├─ widget_ornekleri.dart
- │   ├─ ekran_goruntuleri/
