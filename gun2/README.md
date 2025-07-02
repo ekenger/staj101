@@ -1,5 +1,5 @@
 # Staj Günlüğü – 2. Gün  
-📅 **Tarih:** 01.07.2025  
+📅 **Tarih:** 02.07.2025  
 🏢 **Firma:** Enkur Enerji  
 💼 **Konu:** Web Uygulaması UX Testleri ve Flutter Widget Çalışmaları
 
