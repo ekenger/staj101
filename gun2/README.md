@@ -18,7 +18,7 @@ Bugünkü staj sürecinde, Enkur Enerji’nin kullanıcı deneyimini artırmaya 
 - Platformdaki sayaç alarm bildirimlerinin doğruluğunu kontrol etmek için test senaryoları hazırladım.
 - Gerçek tüketim farkları ile alarm farklarının uyumlu olup olmadığını tespit ettim.
 
-### 🗂️ **Tespit Edilen Hatalar:**
+### 🗂️ **Tespit Edilen UX Hataları:**
 
 | Sayaç Adı | Türü | Alarm Farkı | Gerçek Fark |
 |-----------|------|--------------|--------------|
