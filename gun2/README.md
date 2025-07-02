@@ -22,8 +22,8 @@ Bugünkü staj sürecinde, Enkur Enerji’nin kullanıcı deneyimini artırmaya 
 
 | Sayaç Adı | Türü | Alarm Farkı | Gerçek Fark |
 |-----------|------|--------------|--------------|
-| ÇMS YENİ ÖRGÜ | Çekiş | 226.80 | 7.56 |
-| YÖNMA ALİMÜNYUM | Veriş | 3,811,477.95 | 9.45 |
+| SAYAÇ 1 | Çekiş | 226.80 | 7.56 |
+| SAYAÇ 2 | Veriş | 3,811,477.95 | 9.45 |
 | ... | ... | ... | ... |
 
 📌 **Not:** Bazı sayaçlarda alarm tetikleme değerlerinin gerçek değerlerle tutarsız olduğu görüldü. Örneğin, gerçek fark 7.56 olmasına rağmen alarm 226.80 olarak bildiriliyor. Bu tespitler staj sorumluma rapor şeklinde sunuldu.
