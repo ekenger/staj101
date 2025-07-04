@@ -53,4 +53,4 @@ Bugünkü çalışmada, mobil uygulamada güvenli kullanıcı yönetimi sağlama
 
 - main.dart : Firebase ile giriş ve kayıt işlemlerini yöneten ana dosya  
 - login_screen.dart : Giriş ekranı  
-- register_screen.dart : Kayıt ekranı
+- register_screen.dart : Kayıt olma ekranı
