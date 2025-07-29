@@ -1,16 +1,56 @@
-# gun4
+# 📘 Staj Günlüğü – 4. Gün  
+📅 Tarih: 04.07.2025  
+🏢 Firma: Enkur Enerji  
+💼 Konu: Firebase Authentication ile Flutter Giriş/Kayıt Uygulaması  
 
-A new Flutter project.
+---
 
-## Getting Started
+### 🎯 Amaç  
+Bugünkü çalışmada, mobil uygulamada güvenli kullanıcı yönetimi sağlamak amacıyla Firebase Authentication servisi Flutter üzerinden test ortamında entegre edildi. Kullanıcıların kayıt, giriş ve çıkış işlemlerini yapabileceği basit bir kimlik doğrulama arayüzü geliştirildi.  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+### 🔐 Firebase Authentication Entegrasyonu  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Firebase Console üzerinden yeni bir proje oluşturuldu.  
+- Email/Password kimlik doğrulama yöntemi etkinleştirildi.  
+- Terminal üzerinden FlutterFire CLI aracı projeye entegre edildi.  
+  - `dart pub global activate flutterfire_cli` komutu ile CLI aracı yüklendi.  
+  - `flutterfire configure` komutu ile Flutter projesi Firebase'e bağlandı.  
+- firebase_core ve firebase_auth paketleri projeye eklendi.  
+- createUserWithEmailAndPassword, signInWithEmailAndPassword ve signOut metodları kullanılarak temel kimlik doğrulama işlemleri test edildi.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+### 💻 Flutter Arayüz Geliştirme  
+
+- Kayıt ve giriş ekranları tasarlandı.  
+- TextField widget’ları ile e-posta ve şifre alanları oluşturuldu.  
+- hintText, icon ve labelText gibi dekorasyon özellikleri kullanıldı.  
+- Her giriş alanı için ayrı TextEditingController tanımlanarak önceki hata giderildi.  
+
+---
+
+### 🔍 Test Edilen Senaryolar  
+
+- Hatalı e-posta formatı ve zayıf şifre girişlerinde SnackBar ile kullanıcı bilgilendirmesi.  
+- Oturum açıkken çıkış işlemi sonrası giriş ekranına yönlendirme.  
+- Kullanıcı girdilerinde trim() fonksiyonu ile veri temizliği.  
+- try/catch blokları ile hata yönetimi ve geri bildirim.  
+
+---
+
+### ✅ Kazanımlar  
+
+- Firebase Authentication servisinin Flutter ile nasıl entegre edileceği öğrenildi.  
+- Kullanıcı yönetimi işlemleri pratikte uygulandı.  
+- TextField, SnackBar, Navigator gibi widget’ların kimlik doğrulama süreçlerinde kullanımı kavrandı.  
+- Hata yönetimi, kullanıcı geri bildirimi ve veri doğrulama pratikleri deneyimlendi.  
+
+---
+
+### 📂 Dosyalar  
+
+- main.dart : Firebase ile giriş ve kayıt işlemlerini yöneten ana dosya  
+- login_screen.dart : Giriş ekranı  
+- register_screen.dart : Kayıt olma ekranı
